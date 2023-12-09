@@ -1,0 +1,22 @@
+{
+  "name": "crud_1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+
+  
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "react-scripts build",
+    "front": "cd front && npm start",
+    "server": "cd server && npm start",
+    "dev": "concurrently \"npm run front\" \"npm run server\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.5.0",
+    "react": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  }
+}
